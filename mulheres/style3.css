@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Fredericka+the+Great&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-family: 'Barrio', cursive;
+    font-size:4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

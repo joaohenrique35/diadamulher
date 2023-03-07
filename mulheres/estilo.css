@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Fredericka+the+Great&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+}
+.container{
+    font-family: sans-serif;
+    font-size:22px;
+    line-height: 1.3;
+    
+  
+}
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(https://cdn.pixabay.com/photo/2021/02/02/15/23/rose-5974372_1280.jpg) no-repeat;
+    background-size: cover; 
+}
+.main{
+    padding:20px;
+    background: rgba(238, 242, 243, 0.7);
+    max-width: 1100;
+    border-radius: 10px;
+    display:grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+    
+}
+h1{
+    font-family: 'Barrio', cursive;
+    font-size:50px;
+    text-align: center;
+    color: rgb(216, 17, 17);
+}
+
+.subtitle {
+    font-family: 'Barrio', cursive;
+    color: rgb(241, 241, 10);
+    background-color: black;
+    width:max-content;
+}
+.main p{
+    margin: 1.6em 0;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 55px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img{
+    height: 400px;
+}
+
+p::selection{
+    background-color: rgb(252, 121, 236);
+
+}
+
+.botoes {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+   
+}
+
+
+
+button {
+    padding: 10px;
+    
+    border: none;
+    transition: .2s ease-in;
+    z-index: 1;
+    width: 150px;
+    font-family: 'Barrio', cursive;
+    color: #211e18;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button::before,
+button::after {
+    position: absolute;
+    content: "";
+    z-index: 1;
+}
+
+.btn-1:hover {
+    background: #baf704;
+    box-shadow: 0 0 5px #baf704, 0 0 25px #baf704, 0 0 50px #baf704, 0 0 200px #baf704;
+}
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    width: 100%;
+    height:min-content;    
+    text-align: center;
+    font-size: 20px;
+   
+}
+    
+    @media(max-width:768px) {
+      
+        section {
+            display: grid;
+            grid-template-columns: auto;
+            
+        }
+
+}
+
+
+
+
